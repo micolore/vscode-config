@@ -1,0 +1,116 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "rust.mode": "legacy",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 1,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Monokai Dimmed",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Monaco",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+
+    "*.extension": "language"
+    
+    },
+    "protoc": {
+        "clang-format.style": "google"
+    },
+    "javascript.autoClosingTags": false,
+    
+    "sync.gist": "932451e94193641027dd759136c67941",
+    "[proto3]": {
+        "editor.defaultFormatter": "zxh404.vscode-proto3"
+    },
+    "clang-format.style": "google",
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "files.autoGuessEncoding": true,
+        "super-stock.interval": 2,
+        "leetcode.hint.configWebviewMarkdown": false,
+        "editor.rulers": [
+        
+        ],
+        "java.semanticHighlighting.enabled": true,
+        "files.exclude": {
+            "**/.classpath": true,
+            "**/.project": true,
+            "**/.settings": true,
+            "**/.factorypath": true
+        },
+        "workbench.editor.enablePreview": false,
+        "rust.rustup": {
+            "toolchain": "stable-x86_64-apple-darwin"
+        },
+        "todo-tree.tree.showScanModeButton": false,
+        "editor.codeActionsOnSave": {
+
+            "source.organizeImports": true
+        },
+        "notebook.kernelProviderAssociations": [
+        
+        ],/*  prettier的配置 */
+        "prettier.printWidth": 100, // 超过最大值换行
+        "prettier.tabWidth": 4, // 缩进字节数
+        "prettier.useTabs": false, // 缩进不使用tab，使用空格
+        "prettier.semi": true, // 句尾添加分号
+        "prettier.singleQuote": true, // 使用单引号代替双引号
+        "prettier.proseWrap": "preserve", // 默认值。因为使用了一些折行敏感型的渲染器（如GitHub comment）而按照markdown文本样式进行折行
+        "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+        "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+        "prettier.disableLanguages": ["vue"], // 不格式化vue文件，vue文件的格式化单独设置
+        "prettier.endOfLine": "auto", // 结尾是 \n \r \n\r auto
+        "prettier.eslintIntegration": false, //不让prettier使用eslint的代码格式进行校验
+        "prettier.htmlWhitespaceSensitivity": "ignore",
+        "prettier.ignorePath": ".prettierignore", // 不使用prettier格式化的文件填写在项目的.prettierignore文件中
+        "prettier.jsxBracketSameLine": false, // 在jsx中把'>' 是否单独放一行
+        "prettier.jsxSingleQuote": false, // 在jsx中使用单引号代替双引号
+        "prettier.parser": "babylon", // 格式化的解析器，默认是babylon
+        "prettier.requireConfig": false, // Require a 'prettierconfig' to format prettier
+        "prettier.stylelintIntegration": false, //不让prettier使用stylelint的代码格式进行校验
+        "prettier.trailingComma": "es5", // 在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）
+        "prettier.tslintIntegration": false,
+        "[javascript]": {
+            "editor.defaultFormatter": "vscode.typescript-language-features"
+        },
+        "rust.build_command": "", // 不让prettier使用tslint的代码格式进行校验
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/target": true,
+            "**/logs": true,
+        },
+        "workbench.colorTheme": "Snazzy Light",
+        "debug.console.fontFamily": "Operator Mono",
+        "vsicons.dontShowNewVersionMessage": true,
+        "go.toolsManagement.autoUpdate": true,
+        "todo-tree.general.tags": [
+            "BUG",
+            "HACK",
+            "FIXME",
+            "TODO",
+            "XXX",
+            "[ ]",
+            "[x]"
+        ],
+        "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+        "angular.experimental-ivy": true,
+        "security.workspace.trust.untrustedFiles": "open",
+        "bracketPairColorizer.depreciation-notice": false,
+        "cmake.configureOnOpen": true,
+        "markdownlint.config": {
+            "default": true,
+            "MD034": false,
+        }
+}
